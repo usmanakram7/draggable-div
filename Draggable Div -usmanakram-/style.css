@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(66, 50, 105);
+}
+
+h1 {
+  text-align: center;
+  color: wheat;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  max-width: 150px;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  border: 2px solid purple;
+  color: white;
+  padding: 20px;
+  background-color: rgb(37, 40, 184);
+  text-align: center;
+  cursor: move;
+  user-select: none;
+}
+
+.wrapper:active {
+  color: rgb(249, 144, 144);
+  border: 2px solid red;
+  background-color: rgb(29, 31, 140);
+  box-shadow: red 2px 2px 100px 1px;
+}
